@@ -1,0 +1,32 @@
+Algoritmo "exercicio"
+
+Var
+// Seção de Declarações das variáveis
+i,num1,num2: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+       escreval("Digite o primeiro numero")
+       leia(num1)
+       escreval("Digite o segundo numero")
+       leia(num2)
+       
+       se num1 < num2 entao
+        para i de num1 ate num2 faca
+   se(i mod 3=0)entao
+   escreval(i)
+      fimse
+      fimpara
+      
+      senao entao
+      escreval("Numero inicial maior que numero final")
+      fimse
+
+
+
+
+
+
+
+Fimalgoritmo

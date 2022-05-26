@@ -1,0 +1,41 @@
+Algoritmo "exercicio4"
+
+Var
+
+nome: caractere
+peso, altura,imc: real
+
+
+Inicio
+
+escreva("Digite seu nome: ")
+   leia(nome)
+   escreva("Digite seu peso: ")
+   leia(peso)
+   escreva("Digite sua altura: ")
+   leia(altura)
+   
+   imc<-peso/(altura*altura)
+   escreval("Seu IMC é de",imc)
+   se (imc<19) entao
+    escreval ("Você está abaixo do peso")
+   senao
+        se (imc >= 19) E (imc < 25) entao
+        escreval ("Você está no peso normal")
+   senao
+        se (imc >=25) E (imc < 30) entao
+        escreval ("Você está com sobrepeso")
+   senao
+        se (imc >=30) E (imc < 40) entao
+        escreval ("Você está com Obesidade Tipo I")
+   senao
+        escreval("Você está com Obesidade Mórbida")
+   fimse
+   fimse
+   fimse
+   fimse
+   
+   
+
+
+Fimalgoritmo

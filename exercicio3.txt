@@ -1,0 +1,23 @@
+Algoritmo "exercicio3"
+Var
+
+saldoinicial,deposito,saldoatual:real
+
+
+Inicio
+
+escreval("Digite seu saldo: ")
+   leia(saldoinicial)
+   escreval("Digite o valor que deseja depositar")
+   leia(deposito)
+   
+   saldoatual<-saldoinicial + deposito
+
+   escreval("Seu saldo era de ",saldoinicial)
+   escreval("Após o deposito de ",deposito," seu saldo passou a ser",saldoatual)
+
+
+
+
+
+Fimalgoritmo

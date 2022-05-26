@@ -1,0 +1,41 @@
+Algoritmo "exercicio8"
+
+Var
+// Seção de Declarações das variáveis
+base,altura,area,perimetro: real
+figura:caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("Digite a figura (q-quadradado t-Triangulo)")
+   leia(figura)
+
+
+   escolha figura
+   caso "Q"
+   escreval("Digite o tamanho do lado do quadrado")
+   leia(base)
+   area := base*base
+   perimetro:=base*4
+   caso "T"
+   escreval("Digite a base do triangulo")
+   leia(base)
+   escreval("Digite a altura do triangulo")
+   leia(altura)
+   area := (base*altura)/2
+   perimetro:=base+altura+altura
+   outrocaso
+   perimetro :=-1
+   fimescolha
+   
+   se perimetro =-1 entao
+   escreval("Operação incorreta")
+   senao então
+    escreval("Area ",area," Perimetro",perimetro)
+    fimse
+
+
+
+
+
+Fimalgoritmo

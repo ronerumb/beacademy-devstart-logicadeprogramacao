@@ -1,0 +1,64 @@
+Algoritmo "exercicio"
+
+Var
+// Seção de Declarações das variáveis
+saldoinicial,valoroperacao,saldofinal:real
+op,agencia,banco,conta:caractere
+quantidade,i:inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval("Digite seu saldo inicial")
+leia(saldoinicial)
+saldofinal<-saldoinicial
+
+escreval("Digite quantas operacoes deseja fazer")
+leia(quantidade)
+
+para i de 1 ate quantidade faca
+
+escreval("Selecione uma operacao: D - Depósito, S - Saque ou T - Transferência: ")
+   leia(op)
+
+      escolha op
+      caso "D"
+      escreval("Digite o valor que deseja depositar")
+      leia(valoroperacao)
+      saldofinal<-saldofinal+valoroperacao
+       caso "S"
+      escreval("Digite o valor que deseja sacar")
+      leia(valoroperacao)
+      saldofinal<-saldofinal-valoroperacao
+         caso "T"
+         escreval("Digite o nome do banco")
+         leia(banco)
+           escreval("Digite a agencia")
+         leia(agencia)
+           escreval("Digite a conta")
+         leia(conta)
+      escreval("Digite o valor que deseja transferir")
+      leia(valoroperacao)
+      saldofinal<-saldofinal-valoroperacao
+      fimescolha
+      
+      se op = "T" entao
+      escreval("Banco: ",banco," Agencia ",agencia," Conta",conta)
+      fimse
+      escreval("Saldo inicial: ",saldoinicial," valor da operação: ",valoroperacao," saldo final",saldofinal)
+      
+      
+      
+      
+      fimpara
+      
+      
+      
+
+
+
+
+
+
+
+Fimalgoritmo

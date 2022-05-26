@@ -1,0 +1,26 @@
+Algoritmo "exercicio2"
+
+Var
+
+nome:caractere
+idade:inteiro
+
+
+Inicio
+
+escreval("Digite seu nome: ")
+   leia(nome)
+   escreval("Digite sua idade: ")
+   leia(idade)
+
+   escreval("Nome: ", nome, " Idade ",idade, " anos")
+   escreval("Voce tem mais de 18 anos?",(idade > 18))
+   escreval("Sua idade é igual a 25 anos?",(idade = 25))
+   escreval("Sua idade é igual a 25 anos e seu nome é diferente de Marcos? ",(idade = 25) E (nome <> "Marcos"))
+   escreval("Sua idade é diferente de 25 anos e seu nome é Marcos? ",(idade <> 25) OU (nome="Marcos"))
+   escreval("Sua idade dividida por 2 é igual a 0?",(idade mod 2=0))
+
+
+
+
+Fimalgoritmo

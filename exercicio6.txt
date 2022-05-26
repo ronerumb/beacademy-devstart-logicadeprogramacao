@@ -1,0 +1,42 @@
+Algoritmo "exercicio6"
+
+Var
+
+saldoinicial,valoroperacao,saldofinal:real
+operacao:caractere
+
+
+Inicio
+
+escreval("Digite seu saldo inicial: ")
+   leia(saldoinicial)
+escreval("Digite s para Saque e d para deposito")
+leia(operacao)
+
+se (operacao = "s") entao
+escreval("Digite o valor que deseja sacar")
+leia(valoroperacao)
+saldofinal<-saldoinicial-valoroperacao
+escreval("Saldo inicial ",saldoinicial," Valor Sacado ",valoroperacao," Saldo final",saldofinal )
+senao
+se   (operacao = "d") entao
+escreval("Digite o valor que deseja depositar")
+leia(valoroperacao)
+saldofinal<-saldoinicial+valoroperacao
+escreval("Saldo inicial ",saldoinicial," Valor Depositado ",valoroperacao," Saldo final",saldofinal )
+senao
+escreval("Operacao invalida")
+fimse
+fimse
+
+
+
+
+
+
+
+   
+   
+
+
+Fimalgoritmo

@@ -1,0 +1,23 @@
+Algoritmo "exercicio"
+
+Var
+// Seção de Declarações das variáveis
+numero,i: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval("Insira o numero")
+   leia(numero)
+
+   escreval ("Tabuada de ",numero, " é: ")
+   i<-1
+   enquanto i<=10 faca
+   escreval(numero," x",i," = ", numero * i)
+    i<-i+1
+   fimenquanto
+
+
+
+
+Fimalgoritmo

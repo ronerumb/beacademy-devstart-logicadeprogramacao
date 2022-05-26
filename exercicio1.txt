@@ -1,0 +1,22 @@
+
+Var
+
+nome: caractere
+peso, altura: real
+
+
+Inicio
+
+escreva("Digite seu nome: ")
+   leia(nome)
+   escreva("Digite seu peso: ")
+   leia(peso)
+   escreva("Digite sua altura: ")
+   leia(altura)
+
+   escreva("Nome: " + nome + " Altura: ", altura, " Peso: ", peso," IMC",peso/(altura*altura))
+
+
+
+
+Fimalgoritmo

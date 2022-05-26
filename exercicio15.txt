@@ -1,0 +1,35 @@
+Algoritmo "exercicio"
+
+Var
+// Seção de Declarações das variáveis
+continuar:caractere
+num1,num2:real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+   
+   continuar<-"S"
+
+    enquanto (continuar="S") faca
+      escreval("Digite o primeiro numero: ")
+   leia(num1)
+   escreval("Digite o segundo numero ")
+   leia(num2)
+   escreval("Adição ",num1+num2)
+      escreval("Multiplicação ",num1*num2)
+         escreval("Divisão ",num1/num2)
+            escreval("Subtração ",num1-num2)
+            
+            escreval("Deseja continuar? S/N")
+            leia(continuar)
+
+   fimenquanto
+   
+
+
+
+
+
+Fimalgoritmo
