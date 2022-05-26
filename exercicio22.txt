@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+
+Var
+
+nome, endereco,telefone: vetor[1..5] de caractere
+cpf,rg: vetor[1..5] de inteiro
+i: inteiro
+Inicio
+
+
+para i de 1 ate 5 faca
+escreval("Informe o nome do cliente")
+leia(nome[i])
+escreval("Informe o RG ")
+leia(rg[i])
+escreval("Informe o CPF")
+leia(cpf[i])
+escreval("Informe o endereço ")
+leia(endereco[i])
+escreval("Informe o telefone ")
+leia(telefone[i])
+fimpara
+
+para i de 1 ate 5 faca
+escreval("Nome : ",nome[i]," RG : ",rg[i]," CPF : ",cpf[i]," Endereço : ",endereco[i]," Telefone: ",telefone[i] )
+ fimpara
+
+Fimalgoritmo

@@ -1,0 +1,16 @@
+Algoritmo "semnome"
+
+Var
+numero,soma:inteiro
+
+Inicio
+numero<-1
+
+repita
+soma<-soma+1
+
+ate numero=100
+
+escreval("A soma dos 100 numeros é ",soma)
+
+Fimalgoritmo

@@ -1,0 +1,30 @@
+Algoritmo "semnome"
+
+Var
+idade,menor,maior:inteiro
+
+
+Inicio
+menor<-0
+maior<-0
+
+repita
+escreval ("Digite uma idade ou -99 para sair da aplicação")
+leia(idade)
+se (idade = -99)entao
+interrompa
+se(idade < 18) entao
+menor<-menor+1
+senao entao
+maior<-maior+1
+fimse
+fimse
+
+
+ate idade = -99
+
+escreval("Temos ",maior," maiores de 18")
+escreval("Temos ",menor," menores de 18")
+
+
+Fimalgoritmo

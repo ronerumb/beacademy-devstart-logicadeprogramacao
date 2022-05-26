@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+
+Var
+nome,senha:caractere
+
+
+Inicio
+
+repita
+escreval ("Digite seu nome ou -1 para sair da aplicação")
+leia(nome)
+se (nome = "-1")entao
+escreval("O programa será finalizado por solicitação do usuário")
+interrompa
+fimse
+escreval("Insira sua senha")
+leia(senha)
+ate (nome="Marcos") e (senha="1234")
+
+
+Fimalgoritmo

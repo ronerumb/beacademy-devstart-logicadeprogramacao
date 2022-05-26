@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+
+Var
+
+saldo: inteiro
+op: caractere
+Inicio
+
+saldo<-1000
+
+repita
+escreval("Digite S para realizar o saque de 150 reais ")
+leia(op)
+
+se op="s" entao
+saldo<-saldo-150
+escreval("Saldo atual ",saldo)
+fimse
+
+ate saldo<=0
+escreval("Saque não realizado. Saldo insuficiente")
+
+Fimalgoritmo
